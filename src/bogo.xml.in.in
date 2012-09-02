@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- filename: bogo.xml -->
+<component>
+    <name>org.freedesktop.IBus.Bogo</name>
+    <description>Bogo Component</description>
+    <exec>/usr/lib/ibus-bogo/ibus-engine-bogo --ibus</exec>
+    <version>0.0.1</version>
+    <author>Trung Ngo &lt;ndtrung4419@gmail.com&gt;</author>
+    <license>GPLv3</license>
+    <homepage></homepage>
+    <textdomain>ibus-bogo</textdomain>
+    <engines>
+        <engine>
+            <name>bogo</name>
+            <language>vi</language>
+            <license>GPLv3</license>
+            <author>Trung Ngo &lt;ndtrung4419@gmail.com&gt;</author>
+            <icon>/usr/share/ibus-pinyin/icons/ibus-pinyin.svg</icon>
+            <layout>us</layout>
+            <longname>IBus Bogo</longname>
+            <description>Bogo input method</description>
+            <rank>0</rank>
+        </engine>
+    </engines>
+</component>
